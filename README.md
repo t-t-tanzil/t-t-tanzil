@@ -157,6 +157,8 @@ Golang Backend Development
 Distributed Systems
 ```
 
+---
+
 I'm not presenting these as areas where I already have years of professional experience.
 I'm learning them because they are the natural next step from the mobile engineering work I've been doing for the last several years.
 A few things I'm interested in
