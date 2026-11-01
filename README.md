@@ -2,57 +2,36 @@
 
 # Taqi Tahmid Tanzil
 
-### Senior Mobile Engineer · Android · Kotlin · Flutter · KMP
+### Senior Product Engineer (Mobile-first) · Android, KMP & Flutter
 
-9 years, 20+ apps shipped. I build mobile applications and spend a lot of time thinking about what happens behind the screen: architecture, data, reliability, and the parts that become difficult as a product grows.
+I ship products end to end: the app, its FastAPI backend and the AI features inside it.<br>
+9 years · 20+ apps shipped · Led mobile at Truely while downloads grew from 4,500 to 150,000+
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/t-t-tanzil/)
 [![Portfolio](https://img.shields.io/badge/Portfolio-111827?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.taqitahmid.dev/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/t-t-tanzil/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:t.tanzil92@gmail.com)
 
 </div>
 
 ---
 
-## About
+## What I'm shipping now
 
-I've been building mobile applications since 2017.
+Since April 2026 I build my own products under **Taqsoft**, from idea to store: product design, app, backend, billing and release.
 
-I started with Android in Java, moved to Kotlin, and later added Flutter for products where cross-platform development made sense.
+| Product | What it is | What I built |
+|---|---|---|
+| [**Vexylt**](https://vexylt.com) | Link-in-bio pages built from blocks, with QR sharing, analytics and a Pro tier | Kotlin Multiplatform Android app · backend in **Python, FastAPI and PostgreSQL** (moved off Firebase) · Google Play Billing |
+| [**Savecount**](https://play.google.com/store/apps/details?id=com.taqi.savecount) | Renewal and expiry tracker | Flutter app · **LLM-powered document scan** that reads a document and fills in the renewal item · RevenueCat |
+| [**Ignyr**](https://play.google.com/store/apps/details?id=com.taqi.Ignyr) | Habit and streak tracker | Flutter · reminders, streak stats, global leaderboard · Firebase sync |
+| [**SmartJSONViewer**](https://smartjsonviewer.com/) | JSON formatter and explorer | React + Vite web tool |
 
-Over the years I've worked on travel, healthcare, fintech, telecom, social and enterprise products, and I've shipped 20+ apps. Some of them are in the stores (below). Most of my professional work isn't public, so this profile is also where I keep what I build to explore ideas, test architecture decisions and learn something new.
+## Before that
 
-At work I moved from feature development into architecture and technical ownership. I led mobile at Truely, where I managed one mobile engineer, owned hiring decisions and ran both store releases. At Dhrubok I managed two to three mobile engineers and led delivery across teams of four or five, including backend and design. I'm a Certified Scrum Master.
-
-Since April I've been building my own apps under Taqsoft.
-
-### What I work with
-
-**Android**
-
-Kotlin · Jetpack Compose · Coroutines · Flow · Room · WorkManager · Retrofit · Hilt · Google Maps · Firebase · Google Health · In-body Devices · RevenueCat SDK · PLay store payment · Stripe
-
-**Flutter**
-
-Dart · BLoC · GetX · Clean Architecture · REST APIs · Firebase · Firebase Analytics · FCM · Stripe · LingoDev
-
-**Kotlin Multiplatform**
-
-SQLDelight · Koin · StateFlow · Google Subscription
-
-**Architecture**
-
-MVVM · Clean Architecture · Modularization · Offline-first applications · Local persistence · Synchronization
-
-**Devices and payments**
-
-BLE · Google Fit · eSIM · Stripe · Google Play Billing
-
-**Delivery**
-
-Testing · CI/CD · Fastlane · Codemagic · GitHub Actions · Git
-
----
+- **Truely** (travel eSIM, 150+ countries), Mobile Team Lead: rebuilt the app in Flutter on Clean Architecture with native Kotlin modules behind platform channels, cut the release cycle 40% with Fastlane and Codemagic, ran both store releases, and managed and hired our mobile engineer. Downloads grew from 4,500 to 150,000+ while I was there.
+- **Potential Inc.** (Seoul, remote): led Dexulin, a clinical diabetes-monitoring Android app with BLE medical devices, Google Fit, and on-device movement detection with ML Kit and MediaPipe.
+- **Dhrubok**: led a banking app in Flutter from scratch and managed 2–3 mobile engineers.
+- **Coke Studio** ticket authentication (side project): offline-capable ticket scanning for a concert of 10,000+ attendees, with zero downtime.
 
 ## Apps in the stores
 
@@ -63,118 +42,36 @@ Six of the 20+ apps I've shipped:
 - [NYPD Columbia Association](https://apps.apple.com/us/app/nypd-columbia-association/id1588621313): civic
 - [rePrecinct](https://apps.apple.com/us/app/reprecinct/id6444239603): real estate
 - [Poshora](https://apps.apple.com/us/app/poshora-app/id6642673369): commerce
-- [Payway Salary](https://apps.apple.com/us/app/payway-salary/id6642660765): earned-wage-access app for salaried workers in Panama, built on contract
+- [Payway Salary](https://apps.apple.com/us/app/payway-salary/id6642660765): earned-wage access for salaried workers in Panama, built on contract
 
-## Independent products
+## Stack
 
-- [Vexylt](https://vexylt.com): a link-in-bio app built from blocks (links, projects, experience, services) with QR sharing, analytics and a Pro tier. The Android app is built with Kotlin Multiplatform, with a companion web app.
-- **Ignyr**: a Flutter habit tracker built around the streak, with Firebase sync, reminders and a leaderboard.
-- [SmartJSONViewer](https://smartjsonviewer.com/): a small developer tool for viewing and exploring JSON data.
+**Mobile (core):** Kotlin · Jetpack Compose · Coroutines & Flow · Hilt · Room · WorkManager · Kotlin Multiplatform (SQLDelight, Ktor, Koin) · Flutter · Dart · Bloc · Platform Channels
 
----
+**Backend:** Python · FastAPI · PostgreSQL · REST · GraphQL · Firebase
 
-## Reference projects: offline-first, three ways
+**AI features:** LLM integration in mobile apps · ML Kit · MediaPipe
 
-### Kotlin Multiplatform: Offline-First User List
+**Devices & payments:** BLE · Google Fit · eSIM activation · Stripe · Google Play Billing · RevenueCat
 
-[View Repository →](https://github.com/t-t-tanzil/KmpUserList)
+**Architecture & delivery:** Clean Architecture · MVVM · Offline-first sync · Modularization · Fastlane · Codemagic · GitHub Actions · Testing
 
-I wanted to understand the offline-sync problem from a shared-code perspective, so I built a small application with Kotlin Multiplatform.
+**Leadership:** Team lead · Hiring · Mentoring · Certified Scrum Master
 
-The application is intentionally simple: users can add a name and age, even without an internet connection. Local changes are kept on the device and synchronized with the server when connectivity comes back.
+## Open source: one offline-first app, three ways
 
-The interesting part isn't the form itself. It's what happens when the network disappears.
+The same app (create records offline, sync when the network comes back) built on three stacks, to compare what can be shared and what each platform needs.
 
-**Things explored:**
-
-- Kotlin Multiplatform
-- Shared business and data logic
-- SQLDelight
-- Ktor Client
-- Koin
-- StateFlow
-- Offline persistence
-- Connectivity monitoring
-- Synchronization
-- Retry handling
-
-### Android: Offline-First User List
-
-[View Repository →](https://github.com/t-t-tanzil/Android_MVVM_BoilerPlate-1.0)
-
-The Android version of the same problem.
-
-The app can be used without a network connection, stores changes locally, and synchronizes them with the backend once connectivity is restored.
-
-I built this mainly to work through the architecture rather than the UI.
-
-**Tech stack:**
-
-- Kotlin
-- Jetpack Compose
-- MVVM
-- Clean Architecture
-- Hilt
-- Room
-- Retrofit / OkHttp
-- WorkManager
-- Coroutines
-- Flow
-
-### Flutter: Offline-First User List
-
-[View Repository →](https://github.com/t-t-tanzil/flutter_clean_arch_boilerplate_1.0)
-
-The Flutter implementation of the same offline-first problem.
-
-Building the same idea across Android, Flutter and KMP has been useful for comparing where the architecture can be shared and where each platform needs a different approach.
-
-**Focus areas:**
-
-- Flutter
-- Dart
-- Clean Architecture
-- State management
-- REST APIs
-- Offline persistence
-- Synchronization
+| Repo | Stack |
+|---|---|
+| [KmpUserList](https://github.com/t-t-tanzil/KmpUserList) | Kotlin Multiplatform · SQLDelight · Ktor Client · Koin · StateFlow · retry and connectivity handling |
+| [Android_MVVM_BoilerPlate-1.0](https://github.com/t-t-tanzil/Android_MVVM_BoilerPlate-1.0) | Kotlin · Jetpack Compose · MVVM + Clean · Hilt · Room · Retrofit · WorkManager |
+| [flutter_clean_arch_boilerplate_1.0](https://github.com/t-t-tanzil/flutter_clean_arch_boilerplate_1.0) | Flutter · Dart · Clean Architecture · offline persistence and sync |
 
 ---
 
-## Why these projects?
+## Work with me
 
-Most of my professional experience comes from production applications, where the constraints are usually already there.
+Open to **senior and lead mobile roles**, remote or with relocation. Based in Dhaka (UTC+6), with full overlap with European working hours.
 
-These projects give me a place to experiment with things I don't always get to try at work: offline-first architecture, synchronization, shared business logic and mobile system design.
-
-## Going deeper on
-
-- Kotlin Multiplatform (I'm shipping it in Vexylt)
-- Mobile system design
-- Backend development and distributed systems
-
-## A few things I'm interested in
-
-- Mobile architecture
-- Offline-first applications
-- Kotlin Multiplatform
-- Android and Kotlin
-- Flutter
-- CI/CD and release engineering
-- Developer experience
-- Building software that remains understandable as it grows
-
----
-
-## Connect
-
-I'm open to remote senior and lead mobile roles. I'm based in Dhaka (UTC+6), with full overlap with European working hours:
-
-- Senior Mobile Engineer
-- Senior Android Engineer
-- Senior Flutter Engineer
-- Lead Mobile Engineer
-
-I also take short contract work: [taqitahmid.dev/consulting](https://www.taqitahmid.dev/consulting)
-
-If you're working on an interesting mobile problem, feel free to reach out.
+I also take contract work: app rescue, architecture audits, and adding a backend or AI feature to an existing app. [taqitahmid.dev/consulting](https://www.taqitahmid.dev/consulting)
