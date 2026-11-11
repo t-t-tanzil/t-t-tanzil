@@ -1,11 +1,14 @@
-<div align="center">
+ <div align="center">
 
 # Taqi Tahmid Tanzil
 
-### Senior Product Engineer (Mobile-first) · Android, KMP & Flutter
+### AI-First Senior Product Engineer · Mobile + Backend + Applied AI
 
-I ship products end to end: the app, its FastAPI backend and the AI features inside it.<br>
-9 years · 20+ apps shipped · Led mobile at Truely while downloads grew from 4,500 to 150,000+
+KMP · Flutter · FastAPI · LLM Integration
+
+I ship the app, its API, and its AI features end to end.
+
+9 years in software engineering · 20+ apps shipped · Product development from idea to production
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-111827?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.taqitahmid.dev/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/t-t-tanzil/)
@@ -15,63 +18,110 @@ I ship products end to end: the app, its FastAPI backend and the AI features ins
 
 ---
 
-## What I'm shipping now
+## What I'm building
 
-Since April 2026 I build my own products under **Taqsoft**, from idea to store: product design, app, backend, billing and release.
+Since April 2026, I've been building and shipping independent products under **Taqsoft**. I work across product architecture, mobile and web development, backend services, AI integration and releases.
 
-| Product | What it is | What I built |
+| Product | What it does | What I built |
 |---|---|---|
-| [**Vexylt**](https://vexylt.com) | Link-in-bio pages built from blocks, with QR sharing, analytics and a Pro tier | Kotlin Multiplatform Android app · backend in **Python, FastAPI and PostgreSQL** (moved off Firebase) · Google Play Billing |
-| [**Savecount**](https://play.google.com/store/apps/details?id=com.taqi.savecount) | Renewal and expiry tracker | Flutter app · **LLM-powered document scan** that reads a document and fills in the renewal item · RevenueCat |
-| [**Ignyr**](https://play.google.com/store/apps/details?id=com.taqi.Ignyr) | Habit and streak tracker | Flutter · reminders, streak stats, global leaderboard · Firebase sync |
-| [**SmartJSONViewer**](https://smartjsonviewer.com/) | JSON formatter and explorer | React + Vite web tool |
+| [**TaqLens**](https://play.google.com/store/apps/details?id=app.taqlens) | Offline-first camera translation and language-learning app. Reads, translates, speaks and explains text from signs, menus and pages. | Kotlin Multiplatform · Native Compose and SwiftUI · On-device OCR and translation · FastAPI · Google Cloud Run · Gemini |
+| [**Savecount**](https://play.google.com/store/apps/details?id=com.taqi.savecount) | Renewal and expiry tracker that turns document information into renewal records. | Flutter · Firebase · LLM-powered document scanning and structured information extraction · RevenueCat |
+| [**Vexylt**](https://play.google.com/store/apps/details?id=com.taqi.vexylt) · [Web](https://vexylt.com/) | Link-in-bio product with customizable pages, QR sharing, analytics and a Pro tier. | Kotlin Multiplatform · React web app · Python · FastAPI · PostgreSQL · Google Play Billing |
+| [**Ignyr**](https://play.google.com/store/apps/details?id=com.taqi.Ignyr) | Habit and streak tracker with recurring schedules, reminders, statistics and a global leaderboard. | Flutter · Firebase |
+| **Dogshow** | Dog-show application built with Flutter and a public API. | Flutter · REST API |
+| [**SmartJSONViewer**](https://smartjsonviewer.com/) | Web-based JSON formatter and explorer. | React · Vite |
 
-## Before that
+### A closer look at the engineering
 
-- **Truely** (travel eSIM, 150+ countries), Mobile Team Lead: rebuilt the app in Flutter on Clean Architecture with native Kotlin modules behind platform channels, cut the release cycle 40% with Fastlane and Codemagic, ran both store releases, and managed and hired our mobile engineer. Downloads grew from 4,500 to 150,000+ while I was there.
-- **Potential Inc.** (Seoul, remote): led Dexulin, a clinical diabetes-monitoring Android app with BLE medical devices, Google Fit, and on-device movement detection with ML Kit and MediaPipe.
-- **Dhrubok**: led a banking app in Flutter from scratch and managed 2–3 mobile engineers.
-- **Coke Studio** ticket authentication (side project): offline-capable ticket scanning for a concert of 10,000+ attendees, with zero downtime.
+**TaqLens — Mobile, on-device intelligence and applied AI**
 
-## Apps in the stores
+- Shared business logic and SQLDelight database through Kotlin Multiplatform.
+- Native Android and iOS interfaces using Jetpack Compose and SwiftUI.
+- On-device OCR and translation using ML Kit and Apple Vision/Translation.
+- FastAPI service deployed on Google Cloud Run.
+- Gemini integration for optional online translation and contextual explanations.
+- Offline-first design, with online AI features requiring user consent.
 
-Six of the 20+ apps I've shipped:
+**Savecount — AI document processing**
 
-- [Truely](https://apps.apple.com/us/app/truely-travel-esim-data-plan/id6480101996): travel eSIM app, where I was Mobile Team Lead
-- [Tomo](https://apps.apple.com/us/app/tomo-%E5%8F%8B/id6737231798): community social app
-- [NYPD Columbia Association](https://apps.apple.com/us/app/nypd-columbia-association/id1588621313): civic
-- [rePrecinct](https://apps.apple.com/us/app/reprecinct/id6444239603): real estate
-- [Poshora](https://apps.apple.com/us/app/poshora-app/id6642673369): commerce
-- [Payway Salary](https://apps.apple.com/us/app/payway-salary/id6642660765): earned-wage access for salaried workers in Panama, built on contract
+- Flutter application with Firebase backend.
+- LLM-powered document scanning to extract information and populate renewal records.
+- One-time Pro purchase through RevenueCat.
 
-## Stack
+**Vexylt — Full-stack product development**
 
-**Mobile (core):** Kotlin · Jetpack Compose · Coroutines & Flow · Hilt · Room · WorkManager · Kotlin Multiplatform (SQLDelight, Ktor, Koin) · Flutter · Dart · Bloc · Platform Channels
+- Kotlin Multiplatform Android application and companion web product.
+- Migrated backend from Firebase to Python, FastAPI and PostgreSQL.
+- Built REST APIs, authentication and page-view/link-click analytics.
+- Google Play Billing for Free and Pro tiers.
 
-**Backend:** Python · FastAPI · PostgreSQL · REST · GraphQL · Firebase
+---
 
-**AI features:** LLM integration in mobile apps · ML Kit · MediaPipe
+## Professional experience
 
-**Devices & payments:** BLE · Google Fit · eSIM activation · Stripe · Google Play Billing · RevenueCat
+- **Truely Travel eSIM** — Mobile Team Lead / Software Engineer. Led the mobile rebuild using Flutter and Clean Architecture, built native Kotlin modules for eSIM activation, owned store releases and CI/CD, and managed a mobile engineer. Downloads grew from approximately 4,500 to 150,000+ during my time on the product. Improved release cycle time by 40%.
+- **Potential Inc.** — Senior Software Engineer. Built Android and Flutter applications across healthcare, industrial IoT and social products. Worked on Dexulin, integrating BLE-connected InBody devices, Google Fit, ML Kit and MediaPipe.
+- **QuirkyBuddy Inc.** — Senior Software Engineer (Contract). Mobile implementation and architecture consulting against a GraphQL API.
+- **Dhrubok Infotech Services** — Software Engineer / Mobile Team Lead. Built a banking application in Flutter and led mobile engineers and cross-functional delivery.
+- **Miaki Media** — Android Developer. Built telecom VAS applications, migrated Java code to Kotlin and reduced crash rates by 30%.
+- **Binary Ventures** — Junior Android Developer. Built Android ride-sharing features including real-time tracking and trip management.
 
-**Architecture & delivery:** Clean Architecture · MVVM · Offline-first sync · Modularization · Fastlane · Codemagic · GitHub Actions · Testing
+---
 
-**Leadership:** Team lead · Hiring · Mentoring · Certified Scrum Master
+## Selected apps in the stores
 
-## Open source: one offline-first app, three ways
+Some of the applications I've contributed to across my career:
 
-The same app (create records offline, sync when the network comes back) built on three stacks, to compare what can be shared and what each platform needs.
+- [TaqLens](https://play.google.com/store/apps/details?id=app.taqlens) — Camera translation and language learning.
+- [Savecount](https://play.google.com/store/apps/details?id=com.taqi.savecount) — Renewal and expiry tracking with AI document scanning.
+- [Vexylt](https://play.google.com/store/apps/details?id=com.taqi.vexylt) — Link-in-bio product.
+- [Truely](https://apps.apple.com/us/app/truely-travel-esim-data-plan/id6480101996) — Travel eSIM application.
+- [TOMO](https://apps.apple.com/us/app/tomo-%E5%8F%8B/id6737231798) — Community social app.
+- [NYPD Columbia Association](https://apps.apple.com/us/app/nypd-columbia-association/id1588621313) — Civic application.
+- [rePrecinct](https://apps.apple.com/us/app/reprecinct/id6444239603) — Real estate application.
+- [Poshora](https://apps.apple.com/us/app/poshora-app/id6642673369) — Commerce application.
+- [Payway Salary](https://apps.apple.com/us/app/payway-salary/id6642660765) — Earned-wage access application for salaried workers in Panama.
 
-| Repo | Stack |
+---
+
+## Technical stack
+
+**Applied AI:** LLM APIs · Google Gemini · Structured outputs · AI document processing · ML Kit · MediaPipe
+
+**Backend:** Python · FastAPI · PostgreSQL · REST APIs · GraphQL · Firebase · Authentication
+
+**Mobile:** Kotlin · Android · Jetpack Compose · Coroutines & Flow · Hilt · Room · WorkManager · Kotlin Multiplatform · SQLDelight · Ktor · Flutter · Dart · Bloc · Platform Channels
+
+**Web:** React · Vite · JavaScript · TypeScript
+
+**Infrastructure & delivery:** Docker · Google Cloud Run · Fastlane · Codemagic · GitHub Actions · GitLab CI · Gradle
+
+**Architecture & quality:** Clean Architecture · MVVM · Offline-first systems · Modularization · Unit testing · Integration testing · UI testing
+
+**Integrations:** BLE · Google Fit · eSIM activation · Stripe · Google Play Billing · RevenueCat
+
+**Engineering leadership:** Technical leadership · Hiring · Mentoring · Sprint facilitation · Stakeholder communication
+
+---
+
+## Open source: one offline-first app, three implementations
+
+The same offline-first application — create records without connectivity and sync when the network returns — implemented across three technology stacks.
+
+| Repository | Stack |
 |---|---|
-| [KmpUserList](https://github.com/t-t-tanzil/KmpUserList) | Kotlin Multiplatform · SQLDelight · Ktor Client · Koin · StateFlow · retry and connectivity handling |
-| [Android_MVVM_BoilerPlate-1.0](https://github.com/t-t-tanzil/Android_MVVM_BoilerPlate-1.0) | Kotlin · Jetpack Compose · MVVM + Clean · Hilt · Room · Retrofit · WorkManager |
-| [flutter_clean_arch_boilerplate_1.0](https://github.com/t-t-tanzil/flutter_clean_arch_boilerplate_1.0) | Flutter · Dart · Clean Architecture · offline persistence and sync |
+| [KmpUserList](https://github.com/t-t-tanzil/KmpUserList) | Kotlin Multiplatform · SQLDelight · Ktor Client · Koin · StateFlow · Retry and connectivity handling |
+| [Android_MVVM_BoilerPlate-1.0](https://github.com/t-t-tanzil/Android_MVVM_BoilerPlate-1.0) | Kotlin · Jetpack Compose · MVVM · Clean Architecture · Hilt · Room · Retrofit · WorkManager |
+| [flutter_clean_arch_boilerplate_1.0](https://github.com/t-t-tanzil/flutter_clean_arch_boilerplate_1.0) | Flutter · Dart · Clean Architecture · Offline persistence and sync |
 
 ---
 
 ## Work with me
 
-Open to **senior and lead mobile roles**, remote or with relocation. Based in Dhaka (UTC+6), with full overlap with European working hours.
+Open to **AI Product Engineering, Product Engineering, AI Application Engineering and Forward Deployed Engineering** opportunities, as well as roles where mobile, backend and applied AI come together.
 
-I also take contract work: app rescue, architecture audits, and adding a backend or AI feature to an existing app. [taqitahmid.dev/consulting](https://www.taqitahmid.dev/consulting)
+Available for international remote opportunities, relocation and contract engagements.
+
+Based in Dhaka, Bangladesh (UTC+6).
+
+[Portfolio](https://www.taqitahmid.dev/) · [Consulting](https://www.taqitahmid.dev/consulting) · [LinkedIn](https://www.linkedin.com/in/t-t-tanzil/) · [Email](mailto:t.tanzil92@gmail.com)
