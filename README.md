@@ -20,7 +20,7 @@ I ship the app, its API, and its AI features end to end.
 
 ## What I'm building
 
-Since April 2026, I've been building and shipping independent products under **Taqsoft**. I work across product architecture, mobile and web development, backend services, AI integration and releases.
+Since May 2026, I've been building and shipping independent products under **Taqsoft**. I work across product architecture, mobile and web development, backend services, AI integration and releases.
 
 | Product | What it does | What I built |
 |---|---|---|
